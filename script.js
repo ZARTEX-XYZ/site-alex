@@ -178,4 +178,3 @@ function launchConfetti() {
     setTimeout(() => conf.remove(), 1400);
   }
 }
-

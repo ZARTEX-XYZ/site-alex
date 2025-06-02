@@ -836,3 +836,54 @@
     transform: translateY(0);
   }
 }
+
+/* Styles par défaut (desktop) */
+
+/* Styles pour les écrans de moins de 768px */
+@media (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+
+  #navbar {
+      display: none; /* Masquer la barre de navigation si nécessaire */
+  }
+
+  #burger {
+      display: block; /* Afficher le menu burger */
+  }
+
+  .container {
+      padding: 10px;
+  }
+
+  .book {
+      flex-direction: column; /* Empilez les projets */
+      gap: 20px;
+  }
+
+  .social-links a {
+      margin: 0 10px; /* Ajustez les marges des icônes sociales */
+  }
+}
+
+/* Styles pour les écrans de moins de 480px */
+@media (max-width: 480px) {
+  h2 {
+      font-size: 1.5rem;
+  }
+
+  .book-content img {
+      width: 100%; /* Images responsives */
+      height: auto;
+  }
+
+  #welcome-banner {
+      font-size: 1rem;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
