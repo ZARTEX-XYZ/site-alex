@@ -842,18 +842,18 @@
 /* Styles pour les écrans de moins de 768px */
 @media (max-width: 768px) {
   body {
-    font-size: 16px;
+    font-size: 14px;
     padding: 0 10px;
   }
 
   header {
     flex-direction: column;
     align-items: center;
-    padding: 15px 0;
+    padding: 10px 0;
   }
 
   #logo {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -866,7 +866,7 @@
   }
 
   nav a {
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin: 0;
   }
 
@@ -884,11 +884,11 @@
   }
 
   #home h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   #home p {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
   }
 
   #about {
@@ -899,8 +899,8 @@
 
   #about img {
     margin: 0 auto;
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
   }
 
   #book {
@@ -912,12 +912,12 @@
 
   .book {
     width: 100%;
-    max-width: 280px;
+    max-width: 250px;
     text-align: center;
   }
 
   .book-content img {
-    max-height: 90px;
+    max-height: 80px;
     margin: 0 auto;
   }
 
@@ -929,7 +929,7 @@
   }
 
   footer {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     text-align: center;
   }
 }
@@ -937,48 +937,48 @@
 /* Styles pour les écrans de moins de 480px */
 @media (max-width: 480px) {
   body {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   #welcome-banner {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     padding: 6px 0;
   }
 
   #home h2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   #home p {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
   }
 
   #scroll-down {
-    width: 25px;
-    height: 40px;
+    width: 20px;
+    height: 35px;
   }
 
   #about img {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
   }
 
   .book-content img {
-    max-height: 70px;
+    max-height: 60px;
   }
 
   .exp-counter {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
   }
 
   .exp-counter span {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .social-links a {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
   }
 }
 
