@@ -320,7 +320,7 @@
     color: #fff;
   }
   #about p {
-    color: var(--gray-light);
+    color: var(--gray-medium);
     opacity: 0;
     animation: fadeSlideIn 0.9s forwards 1.3s;
   }
@@ -568,58 +568,67 @@
     user-select: none;
   }
 
-  /* From Uiverse.io by alexmaracinaru */ 
-.card {
-  width: 190px;
-  background: white;
-  padding: .4em;
-  border-radius: 6px;
+  /* Etiquette projets */ 
+.book {
+  position: relative ;
+  border-radius: 10px;
+  width: 220px;
+  height: 300px;
+  background-color: #100e73;
+  -webkit-box-shadow: 1px 1px 12px #5b8def;
+  box-shadow: 1px 1px 12px #5b8def;
+  -webkit-transform: preserve-3d;
+  -ms-transform: preserve-3d;
+  transform: preserve-3d;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #ffffff;
 }
 
-.card-image {
-  background-color: rgb(236, 236, 236);
+.cover {
+  top: 0;
+  position: absolute;
+  background-color: #100e73;
   width: 100%;
-  height: 130px;
-  border-radius: 6px 6px 0 0;
-}
-
-.card-image:hover {
-  transform: scale(0.98);
-}
-
-.category {
-  text-transform: uppercase;
-  font-size: 0.7em;
-  font-weight: 600;
-  color: rgb(63, 121, 230);
-  padding: 10px 7px 0;
-}
-
-.category:hover {
+  height: 100%;
+  border-radius: 10px;
   cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+  -webkit-box-shadow: 1px 1px 12px #5b8def;
+  box-shadow: 1px 1px 12px #5b8def;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-.heading {
-  font-weight: 600;
-  color: rgb(88, 87, 87);
-  padding: 7px;
+.book:hover .cover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: rotatey(-80deg);
+  -ms-transform: rotatey(-80deg);
+  transform: rotatey(-80deg);
 }
 
-.heading:hover {
-  cursor: pointer;
-}
-
-.author {
-  color: gray;
-  font-weight: 400;
-  font-size: 11px;
-  padding-top: 20px;
-}
-
-.name {
-  font-weight: 600;
-}
-
-.name:hover {
-  cursor: pointer;
+p {
+  font-size: 20px;
+  font-weight: bolder;
 }
